@@ -1,0 +1,90 @@
+.mindWeb {
+  position: relative;
+  background: url("../img/lines.jpg") repeat scroll 0 -140px transparent;
+  width: 1280px;
+  height: 800px;
+}
+
+.mindWeb #highlights {
+  position: absolute;
+  top: 40px;
+  left: 360px;
+  height: 500px;
+  width: 500px;
+  background: url("../img/blueCircle.png");
+}
+
+.mindWeb #logo {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  height: 200px;
+  width: 200px;
+  background: url("../img/blackCircle.png");
+}
+
+.mindWeb #comics {
+  position: absolute;
+  top: 0px;
+  left: 280px;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+.mindWeb #comics #comicsImage {
+  height: 200px;
+  width: 200px;
+  background: url("../img/greenCircle.png");
+}
+
+.mindWeb #cooking {
+  position: absolute;
+  top: 440px;
+  left: 840px;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+.mindWeb #cooking #cookingImage {
+  height: 200px;
+  width: 200px;
+  background: url("../img/greenCircle.png");
+}
+
+.mindWeb #writing {
+  position: absolute;
+  top: 20px;
+  left: 840px;
+  height: 140px;
+  width: 140px;
+  background: url("../img/yellowCircle.png");
+}
+
+.mindWeb #something {
+  position: absolute;
+  top: 240px;
+  left: 140px;
+  height: 140px;
+  width: 140px;
+  background: url("../img/yellowCircle.png");
+}
+
+.mindWeb #ad1 {
+  position: absolute;
+  top: 430px;
+  left: 130px;
+  height: 220px;
+  width: 220px;
+  background: url("../img/adSquare.png");
+}
+
+.mindWeb #ad2 {
+  position: absolute;
+  top: 100px;
+  left: 1030px;
+  height: 220px;
+  width: 220px;
+  background: url("../img/adSquare.png");
+}
