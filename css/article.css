@@ -1,0 +1,12 @@
+.content #entry{
+  overflow: auto;
+  margin: 0px auto;
+  padding: 10px 12px 12px 12px;
+  width: 976px;
+}
+
+.content #post{
+  margin: 10px 0px 0px 0px;
+  width: 1020px;
+  background: purple;
+}

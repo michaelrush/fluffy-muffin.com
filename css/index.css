@@ -1,90 +1,310 @@
-.mindWeb {
-  position: relative;
-  background: url("../img/lines.jpg") repeat scroll 0 -140px transparent;
-  width: 1280px;
-  height: 800px;
+.background  {
+  background: url("../img/mainbackground.jpg") repeat top center fixed;
 }
 
-.mindWeb #highlights {
-  position: absolute;
-  top: 40px;
+/*
+	This is the start of the Mind Map. Remember if
+	it scrolls, set overflow to none.
+*/
+
+#vertical{
+float: left;
+height: 50%;
+margin-top:-400px;
+width: 100%;
+background: blue;
+}
+
+.mindWeb{
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+height: 800px;
+overflow: auto;
+clear: both;
+background: pink;
+}
+
+.mindWeb #highlights {  
+/*
+  position: relative;
+  top: -500px;
   left: 360px;
+*/
   height: 500px;
   width: 500px;
-  background: url("../img/blueCircle.png");
 }
 
 .mindWeb #logo {
-  position: absolute;
-  top: 0px;
+/*
+  position: relative;
+  top: -700px;
   left: 20px;
+*/
   height: 200px;
   width: 200px;
-  background: url("../img/blackCircle.png");
 }
 
 .mindWeb #comics {
-  position: absolute;
+/*
+  position: relative;
   top: 0px;
   left: 280px;
+*/
   height: 200px;
   width: 200px;
-  background-color: black;
-}
-
-.mindWeb #comics #comicsImage {
-  height: 200px;
-  width: 200px;
-  background: url("../img/greenCircle.png");
-}
-
-.mindWeb #cooking {
-  position: absolute;
-  top: 440px;
-  left: 840px;
-  height: 200px;
-  width: 200px;
-  background-color: black;
-}
-
-.mindWeb #cooking #cookingImage {
-  height: 200px;
-  width: 200px;
-  background: url("../img/greenCircle.png");
+  background: url("../img/Comic.png");
+  z-index:500;
 }
 
 .mindWeb #writing {
-  position: absolute;
-  top: 20px;
+/*
+  position: relative;
+  top: -470px;
   left: 840px;
-  height: 140px;
-  width: 140px;
-  background: url("../img/yellowCircle.png");
+*/
+  height: 200px;
+  width: 200px;
+  background: url("../img/Writing.png");
+  z-index:500;
 }
 
-.mindWeb #something {
-  position: absolute;
-  top: 240px;
-  left: 140px;
+.mindWeb #donate {
+/*
+  position: relative;
+  top: -1100px;
+  left: 840px;
+*/
   height: 140px;
   width: 140px;
-  background: url("../img/yellowCircle.png");
+  background: url("../img/donate.png");
+  z-index:500;
+}
+
+.mindWeb #about {
+/*
+  position: relative;
+  top: -1000px;
+  left: 140px;
+*/
+  height: 140px;
+  width: 140px;
+  background: url("../img/about us.png");
 }
 
 .mindWeb #ad1 {
-  position: absolute;
-  top: 430px;
+/*
+  position: relative;
+  top: -900px;
   left: 130px;
+*/
   height: 220px;
   width: 220px;
-  background: url("../img/adSquare.png");
+  background: url("../img/ad border.png");
 }
 
 .mindWeb #ad2 {
-  position: absolute;
-  top: 100px;
+/*
+  position: relative;
+  top: -1500px;
   left: 1030px;
+*/
   height: 220px;
   width: 220px;
-  background: url("../img/adSquare.png");
+  background: url("../img/ad border.png");
+}
+
+#slides {
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:500px;
+	height:500px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:500px;
+	height:500px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+*/
+
+/*
+Begin Hover Stuff: Feature
+*/
+
+a.feature1{
+display: block;
+width: 500px;
+height: 500px;
+background-image:url("../img/new hvr png/Center page 1 hvr.png")
+}
+
+a.feature1:hover{
+background-position: -500px 0;
+}
+
+a.feature2{
+display: block;
+width: 500px;
+height: 500px;
+background-image:url("../img/new hvr png/Mainslide 2-3 hvr.png")
+}
+
+a.feature2:hover{
+background-position: -500px 0;
+}
+
+a.feature3{
+display: block;
+width: 500px;
+height: 500px;
+background-image:url("../img/new hvr png/mainslide3 hvr.png")
+}
+
+a.feature3:hover{
+background-position: -500px 0;
+}
+
+a.feature4{
+display: block;
+width: 500px;
+height: 500px;
+background-image:url("../img/new hvr png/mainslide 4 hvr.png")
+}
+
+a.feature4:hover{
+background-position: -500px 0;
+}
+
+/*
+Other Hover
+*/
+
+a.logo{
+display: block;
+width: 200px;
+height: 200px;
+background-image: url("../img/new hvr png/logo hvr.png");
+}
+
+a.logo:hover{
+background-position: -200px 0;
+}
+
+
+a.anchor1 { 
+display: block;
+width : 200px; 
+height : 200px;
+background-image: url("../img/new hvr png/comic alice-3 hvr.png"); 
+}
+
+a.anchor1:hover { 
+background-position: -200px 0;
+}
+
+a.anchor2 { 
+display: block;
+width : 200px; 
+height : 200px;
+background-image: url("../img/new hvr png/writing hvr.png"); 
+}
+
+a.anchor2:hover { 
+background-position: -200px 0;
+}
+
+a.anchor3 { 
+display: block;
+width : 140px; 
+height : 140px;
+background-image: url("../img/new hvr png/donate hvr.png"); 
+}
+
+a.anchor3:hover { 
+background-position: -140px 0;
+}
+
+a.anchor4 { 
+display: block;
+width : 140px; 
+height : 140px;
+background-image: url("../img/new hvr png/about us hvr.png"); 
+}
+
+a.anchor4:hover { 
+background-position: -140px 0;
 }

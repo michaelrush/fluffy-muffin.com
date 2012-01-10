@@ -1,0 +1,169 @@
+.background  {
+  text-align: center;
+  color:#000000;
+  font: 15px trebuchet ms;
+  background: url('../img/mainbackground.jpg') repeat top center fixed;
+}
+
+h1{
+  font-size: 24px;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+}
+
+/*link color green was: 3d7815.
+Change to white to see better.*/
+
+a{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.foot{
+  color:#ffffff;
+}
+
+#container {
+  overflow: auto;
+  margin: 0px auto;
+  padding: 0px;
+  width: 1230px;
+}
+
+.sidebar{
+  overflow:auto;
+  margin: 35px 0px 0px 0px;
+  float: left;
+  width: 200px;
+  text-align: center;
+}
+
+.sidebar #logo{
+  width: 200px;
+  height: 200px;
+}
+
+.sidebar #avatar{
+  padding: 0px;
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+}
+
+.sidebar #nav{
+  width:150px;
+  height: 50px;
+  padding: 0px 0px 0px 25px;
+  margin: 0px 0px 0px 0px;
+  text-align:center;
+}
+
+.MainContent{
+  overflow: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+  width: 1020px;
+}
+
+.header {
+  overflow: auto;
+  margin: 0px auto;
+  padding: 0px;
+  width: 1020px;
+  height: 180px;
+}
+
+.header #bannerAd{
+  float: right;
+  width: 488px;
+  height: 80px;
+  background: url("../img/ad frame for content pages.png");
+}
+
+.header #Title{
+  float: left;
+  margin: 51px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 532px;
+  height: 125px;
+}
+
+.content {
+  text-align: left;
+}
+
+.content #TopFrame{
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  width: 1020px;
+  height: 11px;
+  background: url("../img/frame for content bottom top.png")
+}
+
+.content #MidFrame{
+  width: 1020px;
+  height: 100%;
+  background: url("../img/frame for content center.png") repeat-y;
+ }
+ 
+.content #BottomFrame{
+  margin: 0px;
+  padding: 0px;
+  width: 1020px;
+  height: 11px;
+  background: url("../img/frame for content bottom.png")
+}
+
+a.logo{
+display: block;
+width: 200px;
+height: 200px;
+background-image: url("../img/new hvr png/logo hvr.png");
+}
+
+a.logo:hover{
+background-position: -200px 0;
+}
+
+a.epiphany{
+display: block;
+width: 150px;
+height: 50px;
+background-image: url("../img/new hvr png/nav link epiphanies hvr.png")
+}
+
+a.epiphany:hover{
+background-position: -150px 0;
+}
+
+a.recipe{
+display: block;
+width: 150px;
+height: 50px;
+background-image: url("../img/new hvr png/nav link recipes hvr.png")
+}
+
+a.recipe:hover{
+background-position: -150px 0;
+}
+
+a.wotd{
+display: block;
+width: 150px;
+height: 50px;
+background-image: url("../img/new hvr png/nav link words hvr.png")
+}
+
+a.wotd:hover{
+background-position: -150px 0;
+}
+
+a.loose{
+display: block;
+width: 150px;
+height: 50px;
+background-image: url("../img/new hvr png/nav link loose hvr.png")
+}
+
+a.loose:hover{
+background-position: -150px 0;
+}

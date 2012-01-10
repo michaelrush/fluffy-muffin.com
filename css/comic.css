@@ -1,0 +1,65 @@
+.header #Title{
+  background: url('../img/comic title white.png');
+}
+
+.date{
+  color:#ffffff;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content{
+  padding: 10px 0px 0px 0px;
+  margin: 0 auto;
+}
+
+.content #entry{
+  width: 1020px;
+  height: 425px;
+}
+
+.content #post{
+  margin: 0px auto;
+  padding: 10px 12px 12px 12px;
+  width: 976px;
+  text-align: center;
+}
+
+.content #buttonbar{
+  padding: 10px 0px 0px 0px;
+  margin: 0 auto;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+}
+
+.content #back{
+float: left;
+}
+
+.content #forward{
+float: right;
+}
+
+a.back{
+display: block;
+width: 100px;
+height: 50px;
+background-image: url("../img/new hvr png/nav link left arrow hvr.png")
+}
+
+a.back:hover{
+background-position: -100px 0;
+}
+
+a.forward{
+display: block;
+width: 100px;
+height: 50px;
+background-image: url("../img/new hvr png/nav link right arrow hvr.png")
+}
+
+a.forward:hover{
+background-position: -100px 0;
+}

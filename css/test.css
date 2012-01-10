@@ -1,0 +1,29 @@
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.background  {
+  height:100%;
+  text-align: center;
+  background: green;
+}
+
+#vertical{
+float: left;
+height: 50%;
+margin-top:-400px;
+width: 100%;
+background: blue;
+}
+
+#content{
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+height: 800px;
+overflow: auto;
+clear: both;
+background: pink;
+}
